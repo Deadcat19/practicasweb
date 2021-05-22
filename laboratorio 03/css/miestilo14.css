@@ -1,0 +1,79 @@
+body {
+  background-color: darkblue;
+}
+
+.contenedor {
+  background-color: whitesmoke;
+}
+
+ul {
+  background-color: cornflowerblue;
+  padding: 15px;
+  list-style-type: square;
+}
+
+ul li {
+  background-color: crimson;
+  color: white;
+  margin: 3px;
+}
+
+ul li ul {
+  background-color: cyan;
+  padding: 5px;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+ul li ul li {
+  background-color: darkkhaki;
+  margin: 3px;
+  list-style-type: disc;
+}
+
+ul li ul li ul {
+  background-color: darkmagenta;
+  padding: 5px;
+}
+
+ul li ul li ul li {
+  background-color: darkorange;
+  margin: 3px;
+  list-style-type: none;
+}
+
+ol {
+  background-color: coral;
+  padding: 15px;
+  list-style-type: disc;
+}
+
+ol li {
+  background-color: darkcyan;
+  color: white;
+  margin: 3px;
+}
+
+ol li ol {
+  background-color: sandybrown;
+  padding: 5px;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+ol li ol li {
+  background-color: rebeccapurple;
+  margin: 3px;
+  list-style-type: upper-roman;
+}
+
+ol li ol li ol {
+  background-color: silver;
+  padding: 5px;
+}
+
+ol li ol li ol li {
+  background-color: cadetblue;
+  margin: 3px;
+  list-style-type: square;
+}
