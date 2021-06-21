@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Parte 3</title>
+    <script type="text/javascript">
+        // Estrucutras repetitivas
+        // Te permiten repetir un bloque de codigo
+        // se calsiifican en 3:
+        // Mientras -> While
+        // Repetir -> do while
+        // Para -> for 
+        // Contador --> es una varibale que lleva la cuenta de cuatas vueltas esta dando el bucle, es importante tenr un contador si no se genera un bucle infinito
+        // Sintaxis --> contador= contador+valor, --> valor es de cuanto en cuanto aumenta las repeticiones
+        // sintaxis while 
+        // while
+
+        // Ejemplo 1
+        // Desarrollar una aplicacion que te permita ingresar tu nombre y mostrar un saludo 5 veces
+        // ¿Cunatas varibles?
+        // 2
+        // ¿Que tipo de datos necesito?
+        // Texto, Entero 
+        // ¿Cuales seria variables?
+        // nom, cont 
+        // ¿Que variable sboy a leer?
+        // nom 
+        // definiendo o inicializando variables
+        var nom="", cont=0;
+        // capturando valores
+        nom=prompt("Ingresa tu nombre:");
+        // while
+        while(cont<s){
+            document.write("Hola como estas "+nom+"<br>");
+            cont++;
+        }
+        document.write("<hr>")
+        // do while
+        cont=0;
+        do{
+            document.write("Holas como estas "+nom+"<br>");
+            cont++;
+        }while(cont<5);
+        document.write("<hr>")
+        // for
+        for(cont=0;cont<5;cont++){
+            document.write("Holas como estas "+nom+"<br>");
+        }
+        document.write("<hr>")
+        document.write("<hr>")
+
+        // Ejemplo 3
+        // Desarrollar una aplicacion que te permita mostrar los n primeros
+        // numeos naturales 
+        // ¿Cuantas variables necesito?
+        // 2
+        // ¿Que tipo de datos necesito?
+        // Entero 
+        // ¿Cuales seria variables?
+        // cont, can 
+        // ¿Que variable sboy a leer?
+        // can 
+        // definiendo o inicializando variables
+        var cont=0, can=0;
+        // caturando valores
+        can=parseInt(prompt("Ingresa la catidad de numeros:"))
+        // while
+        while(cont<can){
+            document.write(cont+"<br>");
+        }
+        document.write("<hr>")
+        // do while
+        cont=0;
+        do{
+            document.write(cont+"<br>");
+            cont++;
+        }while(cont<can);
+        document.write("<hr>");
+        // for
+        for(cont=0;cont<can;cont++){
+            document.write(cont+"<br>");
+        }
+        document.write("<hr>");
+        document.write("<hr>");
+
+        // Ejemplo 4
+        // Desarrollar un aplicacion que permita ingresar un valor y sobre ese valor calcular la tabla de multiplicacion, dependiendo de la cantidad de valores que se va a trabajar.
+        // ¿Cuantas vaiables necesito?
+        // 3
+        // ¿Que tipos de datos necesito?
+        // Entero 
+        // ¿Cuales sria variables?
+        // cont, can, num
+        // ¿Que variables voy a leer?
+        // can, num
+        // defendiendo e inicailizando las variables
+        var cont=0, can=0, num=0;
+        // capturando valores
+        can=parseInt(prompt("Ingresa la cantidad de numeros"));
+        num=parseInt(prompt("Ingresa el numero de la tabla"));
+        // while
+        while(cont<can){
+            document.write(cont+" x "+num+" = "+(cont*num)+"<br>");
+            cont++;
+        }
+        document.write("<hr>");
+        // do while
+        cont=0;
+        do{
+            document.write(cont+" x "+num+" = "+(cont*num)+"<br>");
+            cont++;
+        }while(cont<can);
+        document.write("<hr>");
+        // for
+        for(cont=0;cont<can;cont++){
+            document.write(cont+" x "+num+" = "+(cont*num)+"<br>");
+        }
+        document.write("<hr>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
