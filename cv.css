@@ -1,0 +1,74 @@
+.titulo {
+  color: darkred;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-shadow: 5px 5px 5px rgb(207, 78, 78);
+}
+
+.barra {
+  background-color: slateblue;
+  height: 24px;
+}
+
+.nombre {
+  color: crimson;
+  font-weight: bolder;
+  font-size: 25px;
+  text-shadow: 10px 5px 7px rgb(173, 74, 120);
+}
+
+.subtitulos {
+  color: orangered;
+  font-style: italic;
+}
+
+.contenido {
+  background-color: peru;
+}
+
+p {
+  color: teal;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.menu {
+  color: gray;
+  font-weight: bolder;
+}
+
+.contenedor {
+  background-color: darksalmon;
+}
+
+body {
+  background-color: darkred;
+}
+
+@font-face {
+  font-family: "Starjedi";
+  src: url("/fonts/Starjout.ttf");
+}
+
+@font-face {
+  font-family: "Mario";
+  src: url("/fonts/SuperMario256.ttf");
+}
+
+@font-face {
+  font-family: "Godofwar";
+  src: url("/fonts/GODOFWAR.TTF");
+}
+
+.starwars {
+  font-family: "Starjedi";
+}
+
+.mariobros {
+  font-family: "Mario";
+}
+
+.godofwar {
+  font-family: "Godofwar";
+}
